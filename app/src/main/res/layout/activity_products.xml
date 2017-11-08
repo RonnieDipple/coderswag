@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ronnie.coderswag.Controller.MainActivity">
+    tools:context="com.example.ronnie.coderswag.Controller.ProductsActivity">
 
     <TextView
         android:id="@+id/textView"
@@ -12,13 +12,13 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="Categories"
+        android:text="Products"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/categoryListView"
+        android:id="@+id/productListView"
         android:layout_width="0dp"
         android:layout_height="435dp"
         android:layout_marginTop="16dp"
@@ -30,7 +30,5 @@
         android:divider="@null"
 
         />
-
-
 
 </android.support.constraint.ConstraintLayout>
